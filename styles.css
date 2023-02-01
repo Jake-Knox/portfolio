@@ -20,16 +20,23 @@
 body{
     margin: 0;
     background-color:beige;
+    width:100%;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+    display: flex; 
+    justify-content: center;   
 }
 
 .container {
 
-    max-width: 1000px;
+    width: 1000px;
 
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;   
+    align-items: center; 
 }
 
 
@@ -39,7 +46,7 @@ h1{
 
 p {
     font-size: 24px;
-    color:midnightblue;    
+    color:black;    
 }
 
 #animal {
@@ -58,25 +65,24 @@ img{
 
 }
 
-.navbar2 {    
+/* .navbar2 {    
     background-color: coral;      
     height: 200px;
    
     display: flex;
     /* justify-content: flex-end; */
-    /* justify-content: space-between; */
+    /* justify-content: space-between; 
     justify-content: space-around;
     /* justify-content: center; */
-    /* align-items: flex-end; */
+    /* align-items: flex-end; 
     align-items: center;
 
-}
-
-/* .navbar2 a {
-    /* border-style:solid;
+    border-style:solid;
     border-width: 1px;
     border-radius: 5px;
-    border-color: black;   */
+    border-color: black; 
+    */
+
 
 
 .navbar1 {    
@@ -137,8 +143,27 @@ img{
     color: aliceblue;
 }
 
+.header{
+    width: 100%;
+}
+
+.contact_info_div {
+    width: 100%;
+    border: black 1px solid ;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Animations  */
-@keyframes example {
+/* @keyframes example {
     0% {background-color: red;}
     50% {background-color: yellow;}
     100% {background-color: red;}
@@ -196,7 +221,6 @@ img{
     animation-iteration-count: infinite;
 }
 
-
 .animatedDiv5{
 
     width: 100px;
@@ -206,4 +230,4 @@ img{
   animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: 3;
-}
+} */
