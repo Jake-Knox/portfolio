@@ -148,9 +148,28 @@ img{
 }
 
 .contact_info_div {
-    width: 100%;
+    width: 95%;
+    height: 250px;
+    margin: 15px 0px 15px 5px;
+    padding: 15px;
+
     border: black 1px solid ;
+    box-shadow: 5px 7px sandybrown;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+
 }
+
+.logo_image {
+    height: 150px;
+    width: 150px;
+    /* border: black 1px solid ; */
+
+}
+
 
 
 
