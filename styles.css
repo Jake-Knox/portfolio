@@ -20,16 +20,18 @@
 body{
     margin: 0;
     background-color:beige;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#music_bg{
-    /* background-image: url("images/bookends.png"), url("images/fateForBreakfast.jpg");
-    background-repeat: repeat, repeat;
-    background-color: black;    */
+.container {
 
-    background: url(images/bookends.png) left top no-repeat space, url(images/breakaway.jpg) space repeat;
+    max-width: 1000px;
 
 }
+
 
 h1{
     text-align: center;
