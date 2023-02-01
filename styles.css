@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Open+Sans:wght@300&family=Zen+Tokyo+Zoo&display=swap');
+/* importing some fonts */
+
+
+* {    
+    /* font-family: Arial; */
+
+    font-family: 'Carrois Gothic', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Zen Tokyo Zoo', cursive; */
+
+
+
+    /* border-style:solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: black;   */
+}
+
+body{
+    margin: 0;
+    background-color:beige;
+}
+
+#music_bg{
+    /* background-image: url("images/bookends.png"), url("images/fateForBreakfast.jpg");
+    background-repeat: repeat, repeat;
+    background-color: black;    */
+
+    background: url(images/bookends.png) left top no-repeat space, url(images/breakaway.jpg) space repeat;
+
+}
+
+h1{
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    color:midnightblue;    
+}
+
+#animal {
+    color: goldenrod;
+}
+
+img{
+    
+    width: 50%;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.navbar2 {    
+    background-color: coral;      
+    height: 200px;
+   
+    display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    align-items: center;
+
+}
+
+/* .navbar2 a {
+    /* border-style:solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: black;   */
+
+
+.navbar1 {    
+    
+    /* font-size: 60; */
+    
+    height: 100px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+
+.navbar1 ul{    
+    list-style: none;
+
+    margin-top: 0px;
+    padding-left: 0;
+    padding-right: 0;
+
+    width: 100%;
+    height: 100%;
+
+ }
+
+.navbar1 li{
+
+    /* background-color: skyblue; */
+    background-color: sandybrown;
+
+    float:left;
+
+    /* padding-left: 4pc;
+    padding-right: 4pc; */
+    width: calc(100%/6); 
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar1 a {
+    color: black;
+    font-size: large;
+}
+
+.navbar1 li:hover{
+    /* background-color: darkblue; */
+    /* color: aliceblue; */
+    background-color:sienna;
+    color: aliceblue;
+}
+
+/* Animations  */
+@keyframes example {
+    0% {background-color: red;}
+    50% {background-color: yellow;}
+    100% {background-color: red;}
+}
+
+.animatedDiv{
+
+    width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.animatedDiv2{
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.animatedDiv3{
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.animatedDiv4{
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-delay: -1s;
+    animation-iteration-count: infinite;
+}
+
+
+.animatedDiv5{
+
+    width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
