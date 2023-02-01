@@ -175,6 +175,46 @@ img{
 
 }
 
+.ratings{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    
+}
+
+.ratings_container{
+    width: 400px;
+
+    /* border: black 1px solid ; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    
+}
+.ratings_left{
+    width: 20%;
+    padding-right: 20px;
+    margin: 10px;
+
+    font-size: 1.5em;
+
+    border-right: solid black 1px;
+}
+.ratings_right{
+    width: 80%;
+    padding-top: 10px;
+    margin: 10px;
+
+}
+.thumbs_up{
+    height: 60px;
+    width: 60px;
+
+}
 
 
 
