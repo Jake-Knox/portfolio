@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -23,30 +24,69 @@
         </div>
 
         <ul>
-            <li>facial recognition app</li>
-            <li>VR Museum</li>
+            <li >facial recognition app</li>
+            <a href="#vr_museum"><li>VR Museum</li></a>
             <li>3D Escape Room Game</li>
             <li></li>
             <li></li>
             <li>maybe have scrolling images/ screenshots from those projects. or links?</li>
         </ul>
 
-
-
-        <div class="projects_container">
+        <div id="facial_recognition"class="projects_container">
             <div class="project_panel">
                 <div class="project_info_container">
-                    <h1>Project 1</h1>
-                    <p>Description of project 1</p>
+                    <h1>Facial Recognition App</h1>
+                    <p>2022 - Andriod Kotlin Project</p>
                 </div>
-                <div class="project_images_container">
-                    <img class="project_image" src="images/projects/projectMuseum1.png" alt="image showing... X">
+                <div class="project_carousel">
+                    <div class="images_arrow_left">
+                    </div>
+                    <div class="project_images_container">
+                        <img class="project_image facial_recog_image" src="images/album_covers/petSounds.jpg" alt="image showing... X">
+                    </div>
+                    <div class="images_arrow_right">
+                    </div>
                 </div>
-
             </div>
-            
         </div>
-       
+
+        <div id="vr_museum"class="projects_container">
+            <div class="project_panel">
+                <div class="project_info_container">
+                    <h1>VR Museum</h1>
+                    <p>2022 - Unity C# VR oriented game</p>
+                </div>
+                <div class="project_carousel">
+                    <div class="images_arrow_left" onclick="plusMuseumSlides(-1)">
+                    </div>
+                    <div class="project_images_container">
+                        <img class="project_image museum_image" src="images/projects/projectMuseum1.png" alt="image showing... X">
+                        <img class="project_image museum_image" src="images/projects/projectMuseum2.png" alt="image showing... X">
+                    </div>
+                    <div class="images_arrow_right" onclick="plusMuseumSlides(1)">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="vr_museum"class="projects_container">
+            <div class="project_panel">
+                <div class="project_info_container">
+                    <h1>Espace Room Game</h1>
+                    <p>2022 - Unity C# </p>
+                </div>
+                <div class="project_carousel">
+                    <div class="images_arrow_left" onclick="plusMuseumSlides(-1)">
+                    </div>
+                    <div class="project_images_container">
+                        <img class="project_image escape_image" src="images/album_covers/low.jpg" alt="image showing... X">
+                    </div>
+                    <div class="images_arrow_right" onclick="plusMuseumSlides(1)">
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </div>
    
