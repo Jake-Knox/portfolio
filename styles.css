@@ -5,8 +5,8 @@
 * {    
     /* font-family: Arial; */
 
-    font-family: 'Carrois Gothic', sans-serif;
-    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Carrois Gothic', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     /* font-family: 'Zen Tokyo Zoo', cursive; */
 
 
@@ -100,33 +100,115 @@ p {
     color:black;    
 }
 
-img{
-    width: 50%;
+/* home page */
+
+.home_divider{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.home_left{
+    width: 60%;
+}
+.home_right{
+    width: 40%;
+    padding-left: 00px;
 }
 
-/* home page */
+.about_me{
+    width: 100%;  
+}
 
 #animal {
     color: goldenrod;
 }
 
-.about_me{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-
-}
 
 
 
 
 
-.images{
+
+
+.ratings{
+    width: 400px;
+    margin-left: 0px;
+
+    text-align: center;
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     flex-wrap: wrap;
+}
+
+.ratings_container{
+    
+    
+
+    /* border: black 1px solid ; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    
+}
+.ratings_left{
+    width: 20%;
+    padding-right: 10px;
+    margin: 10px;
+
+    font-size: 1.5em;
+    border-right: solid black 1px;
 
 }
+.ratings_right{
+    width: 40%;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    margin: 10px, 0px, 5px 0px;
+    height: 50px;
+
+    /* border: solid black 1px; */
+
+}
+.thumbs_up{
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+
+/* about page */
+
+.slideshow_container{
+    width: 100%;
+
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0px;
+    margin: 0px;
+
+    border-top: solid gray 1px;
+    border-bottom: solid gray 1px;
+
+    overflow: hidden;
+
+}
+.slideshow_img{
+    width: 20%;
+    height: auto;
+    
+}
+
+
+
+/* Contact page */
 
 .contact_info_div {
     width: 95%;
@@ -155,49 +237,6 @@ img{
     /* border: black 1px solid ; */
 
 }
-
-.ratings{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-
-    
-}
-
-.ratings_container{
-    width: 400px;
-
-    /* border: black 1px solid ; */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* flex-wrap: wrap; */
-    
-}
-.ratings_left{
-    width: 20%;
-    padding-right: 20px;
-    margin: 10px;
-
-    font-size: 1.5em;
-
-    border-right: solid black 1px;
-}
-.ratings_right{
-    width: 80%;
-    padding-top: 10px;
-    margin: 10px;
-
-}
-.thumbs_up{
-    height: 60px;
-    width: 60px;
-
-}
-
-
 
 
 
