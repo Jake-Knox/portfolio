@@ -1,22 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Open+Sans:wght@300&family=Zen+Tokyo+Zoo&display=swap');
-/* importing some fonts */
 
+/* importing some fonts */
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Caveat&family=Cinzel&family=Domine&family=Open+Sans:wght@300&family=Unbounded:wght@300&family=Zen+Tokyo+Zoo&display=swap');
 
 * {    
     /* font-family: Arial; */
-
     /* font-family: 'Carrois Gothic', sans-serif; */
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Cinzel', serif; */
+    /* font-family: 'Domine', serif; */
     font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Unbounded', cursive; */
     /* font-family: 'Zen Tokyo Zoo', cursive; */
-
-
 
     /* border-style:solid;
     border-width: 1px;
     border-radius: 5px;
     border-color: black;   */
-
-
 }
 
 ul{
@@ -47,6 +46,7 @@ body{
 }
 
 .navbar1 {    
+    font-family: 'Unbounded', cursive;
     
     /* font-size: 60; */
     height: 100px;
@@ -85,8 +85,9 @@ body{
 
 .navbar1 a {
     color: black;
-    font-size: large;
-}
+    /* font-size: large; */
+    font-size: 1.3em;
+  }
 
 .navbar1 li:hover{
     /* background-color: darkblue; */
@@ -96,6 +97,8 @@ body{
 }
 
 .header{
+    font-family: 'Unbounded', cursive;
+    font-size: 1.1em;
     text-align: center;
     width: 100%;
 }
