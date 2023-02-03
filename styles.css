@@ -74,6 +74,10 @@ a:link {
 
     justify-content: center;   
     align-items: center; 
+
+    
+    box-shadow: 0px 10px 0px 10px rgba(0, 0, 0, 0.15);
+    
 }
 
 .navbar1 {    
@@ -88,7 +92,7 @@ a:link {
     display: flex;
     justify-content: center;
 
-    box-shadow: 1px 2px saddlebrown;
+    box-shadow: 0px 2px saddlebrown;
 }
 
 .navbar1 ul{    
@@ -245,7 +249,15 @@ a:link {
 }
 
 
+
 /* about page */
+
+
+.about_section{
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 0px;    
+}
 
 .slideshow_container{
     width: 100%;
@@ -268,6 +280,7 @@ a:link {
     height: auto;
     
 }
+
 
 
 
