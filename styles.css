@@ -1,24 +1,24 @@
 
 /* importing some fonts */
-@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Caveat&family=Cinzel&family=Domine&family=Open+Sans:wght@300&family=Unbounded:wght@300&family=Zen+Tokyo+Zoo&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Caveat&family=Cinzel&family=Domine&family=Open+Sans:wght@300&family=Orbitron&family=Unbounded:wght@300&family=VT323&family=Zen+Tokyo+Zoo&display=swap');
+
 
 * {    
-    /* font-family: Arial; */
     /* font-family: 'Carrois Gothic', sans-serif; */
     /* font-family: 'Caveat', cursive; */
     /* font-family: 'Cinzel', serif; */
     /* font-family: 'Domine', serif; */
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Orbitron', sans-serif; */
     /* font-family: 'Unbounded', cursive; */
+    /* font-family: 'VT323', monospace; */
     /* font-family: 'Zen Tokyo Zoo', cursive; */
-
-    /* border-style:solid;
-    border-width: 1px;
-    border-radius: 5px;
-    border-color: black;   */
 }
 
 body{
+    
+    font-family: 'Open Sans', sans-serif;
+
     margin: 0;
     width:100%;
 
@@ -32,40 +32,11 @@ body{
     justify-content: center;   
 }
 
-ul{
-    list-style: none;
-}
-
-
-p {
-    font-size: 24px;
-    color:black;    
-}
-
-
-a {
-    color: black;
-}
-a:link {
-    text-decoration: none;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  a:active {
-    text-decoration: underline;
-  }
-
 .container {
 
     width: 1000px;
     background-color:beige;
+    background-image: url("images/background_images/paper_background.jpg");
 
 
     display: flex;   
@@ -81,10 +52,19 @@ a:link {
 }
 
 .navbar1 {    
-    font-family: 'Unbounded', cursive;
-    
+
+    /* font-family: 'Carrois Gothic', sans-serif; */
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Domine', serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'Unbounded', cursive; */
+    /* font-family: 'VT323', monospace; */
+    /* font-family: 'Zen Tokyo Zoo', cursive; */
+       
     /* font-size: 60; */
-    height: 100px;
+    height: 50px;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -121,7 +101,7 @@ a:link {
 .navbar1 a {
     color: black;
     /* font-size: large; */
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
 .navbar1 li:hover{
@@ -135,18 +115,18 @@ a:link {
     /* not happy with positioning of this */
     position: fixed;
     top: 10px;
-    left: 20%;
+    left: 20px;
     /* border: 1px solid green; */
 }
 #fixed_icon p {
     position: absolute;
     padding-left: 8px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 .spinner{
     position: absolute;
-    margin-top: 5px;
+    margin-top: 3px;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -173,7 +153,9 @@ a:link {
 
 .header{
     font-family: 'Unbounded', cursive;
-    font-size: 1.1em;
+        font-family: 'Caveat', cursive;
+
+    font-size: 1.5em;
     text-align: center;
     width: 100%;
 }
@@ -192,6 +174,37 @@ a:link {
     font-size: 0.9em;
 }
 
+/* MISC */
+
+ul{
+    list-style: none;
+}
+
+
+p {
+    font-size: 24px;
+    color:black;    
+}
+
+
+a {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 
 
 
@@ -228,6 +241,10 @@ a:link {
  .about_me p{
     padding: 0px;
     margin: 0;
+ }
+
+ .about_me:hover{
+    background-color: rgb(255, 243, 238);
  }
 
 #animal {
