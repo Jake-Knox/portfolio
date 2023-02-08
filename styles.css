@@ -131,6 +131,46 @@ a:link {
     color: aliceblue;
 }
 
+#fixed_icon{
+    /* not happy with positioning of this */
+    position: fixed;
+    top: 10px;
+    left: 20%;
+    /* border: 1px solid green; */
+}
+#fixed_icon p {
+    position: absolute;
+    padding-left: 8px;
+    padding-bottom: 20px;
+}
+
+.spinner{
+    position: absolute;
+    margin-top: 5px;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+}
+
+#spin_left{
+    animation-name: spinAnimationRight;
+    /* animation-name: spinAnimationLeft; */
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: -1.5s;
+
+}
+#spin_right{
+
+    animation-name: spinAnimationRight;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+
 .header{
     font-family: 'Unbounded', cursive;
     font-size: 1.1em;
@@ -457,6 +497,22 @@ a:link {
     border-color: black; 
     */
 
+
+/* ANIMATIONS */
+@keyframes spinAnimationLeft {
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(-90deg);}
+    50%  {transform: rotate(-180deg);}
+    75%  {transform: rotate(-270deg);}
+    100% {transform: rotate(-360deg);}
+}
+@keyframes spinAnimationRight {
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(90deg);}
+    50%  {transform: rotate(180deg);}
+    75%  {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
 
 /* Animations  */
 /* @keyframes example {
