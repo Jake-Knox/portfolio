@@ -406,65 +406,8 @@ h3{
 
 
 
-/* Contact page */
-
-.contact_info_div {
-    width: 95%;
-    height: 300px;
-    margin: 15px 0px 15px 5px;
-    padding: 15px;
-
-    border: sandybrown 1px solid ;
-    border-radius: 5px;
-    box-shadow: 4px 7px sandybrown;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    /* justify-content:flex-start; */
-
-    /* border: green 1px solid ; */
-
-}
-/* .contact_info_section {
-    padding: 30px 10px 30px 30px;
-    max-width: 800px;
-    width: 50%;
-
-     border: green 1px solid ; 
-}
-*/
-
-
-.contact_info_left {
-    padding: 0px 0px 0px 0px;
-    max-width: 800px;
-    width: 20%;
-    height: 100%;
-    
-    /* border: red 1px solid ; */
-}
-.contact_info_right {
-    max-width: 630px;
-    width: 70%;
-    height: 100%;
-
-    padding: 0px 0px 0px 0px;
-    
-
-    /* border: blue 1px solid ; */
-}
-
-.logo_image {
-    height: 150px;
-    width: 150px;
-    /* border: black 1px solid ; */
-
-}
 
 /* Projects page */
-
 
 .projects_container{
 
@@ -568,25 +511,68 @@ h3{
     /* border-bottom: 1px solid grey; */
 }
 
+/* Contact page */
 
-
-/* .navbar2 {    
-    background-color: coral;      
-    height: 200px;
-   
+.info_div_container{
     display: flex;
-    /* justify-content: flex-end; */
-    /* justify-content: space-between; 
-    justify-content: space-around;
-    /* justify-content: center; */
-    /* align-items: flex-end; 
+    flex-direction: column;
     align-items: center;
 
-    border-style:solid;
-    border-width: 1px;
+}
+
+.contact_info_div {
+    width: 60%;
+    height: 20vh;
+    padding: 1vh, 1vw, 2vh, 1vw;
+    margin: 10vh, 0px, 10vh, 0px;
+
+    border: sandybrown 1px solid ;
     border-radius: 5px;
-    border-color: black; 
-    */
+    box-shadow: 4px 7px sandybrown;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* justify-content:flex-start; */
+
+    /* border: green 1px solid ; */
+
+}
+/* .contact_info_section {
+    padding: 30px 10px 30px 30px;
+    max-width: 800px;
+    width: 50%;
+
+     border: green 1px solid ; 
+}
+*/
+
+.contact_info_left {
+    padding: 0px 0px 0px 0px;
+    max-width: 800px;
+    width: 20%;
+    height: 100%;
+    
+    /* border: red 1px solid ; */
+}
+.contact_info_right {
+    max-width: 630px;
+    width: 70%;
+    height: 100%;
+
+    padding: 0px 0px 0px 0px;
+    
+
+    /* border: blue 1px solid ; */
+}
+
+.logo_image {
+    width: 90%;
+    height: auto;
+    padding: 0px, 0px, 10px, 10px;
+}
+
 
 
 /* ANIMATIONS */
@@ -604,73 +590,3 @@ h3{
     75%  {transform: rotate(270deg);}
     100% {transform: rotate(360deg);}
 }
-
-/* Animations  */
-/* @keyframes example {
-    0% {background-color: red;}
-    50% {background-color: yellow;}
-    100% {background-color: red;}
-}
-
-.animatedDiv{
-
-    width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes example2 {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-}
-.animatedDiv2{
-
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background-color: red;
-    animation-name: example2;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-.animatedDiv3{
-
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background-color: red;
-    animation-name: example2;
-    animation-duration: 4s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-}
-
-.animatedDiv4{
-
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background-color: red;
-    animation-name: example2;
-    animation-duration: 4s;
-    animation-delay: -1s;
-    animation-iteration-count: infinite;
-}
-
-.animatedDiv5{
-
-    width: 100px;
-  height: 100px;
-  position: relative;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: 3;
-} */
