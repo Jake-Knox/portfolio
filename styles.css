@@ -566,9 +566,46 @@ h3{
     /* border: blue 1px solid ; */
 }
 
-.logo_image {
+.logo_image {    
+    height: 100%;   
+    width: auto; 
+}
+
+.advert{
+    margin-top: 7vh;
+    text-align: center;
+
     width: 100%;
-    height: auto;    
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    /*
+        border: 5px solid rgb(255, 243, 238);
+        background-color: rgb(255, 243, 238);
+    */
+    padding: 1.5vh;
+    border: 2px solid lightgray;
+    border-radius: 20px; 
+
+}
+
+.advert:hover{
+    text-decoration: none;
+}
+
+.ad_section{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+#word-dog-image{
+    height: 100%;
+    width: auto;
 }
 
 
