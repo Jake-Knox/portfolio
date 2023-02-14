@@ -594,14 +594,13 @@ h3{
 }
 
 .advert:hover{
-    text-decoration: none;
+    text-decoration:underline;
 }
 
 .ad_section{
     width: 50%;
     height: 100%;
     /* border: 2px solid red; */
-    
 }
 
 #advert_left {
@@ -610,9 +609,11 @@ h3{
     flex-direction: column;
     justify-content:center;
     align-items: center;
-
 }
 
+#advert_left p{
+    text-decoration: underline;
+}
 #word-dog-image{
     height: 100%;
     width: auto;
