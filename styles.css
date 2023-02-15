@@ -567,9 +567,13 @@ h3{
 }
 
 .logo_image {    
-    height: 100%;   
-    width: auto; 
+     width: 100%; 
+     height: auto;   
 }
+
+
+
+
 
 .advert{
     margin-top: 7vh;
