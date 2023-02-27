@@ -27,13 +27,35 @@
             <h1>Projects</h1>
         </div>
 
-        <ul>
-            <a href="#facial_recognition"><li >facial recognition app</li></a>
-            <a href="#vr_museum"><li>VR Museum</li></a>
-            <a href="#escape_room"><li>3D Escape Room Game</li></a>
-            <a href="https://www.w3schools.com/howto/howto_js_navbar_sticky.asp"><li>FLOAT THE NAVBARS LINK</li></a>
-            <a href="#"><li>FORMAT ME</li></a>
-        </ul>
+        <div class="projects_page_links">
+            <a href="#word-game">Webapp Word Game</a>
+            <a href="#facial_recognition">Facial Recognition Mobile App</a>
+            <a href="#vr_museum">VR Museum</a>
+            <a href="#escape_room">Escape Room Game</a>
+            <!-- <a href="https://www.w3schools.com/howto/howto_js_navbar_sticky.asp"><li>FLOAT THE NAVBARS LINK</li></a> -->
+            <a href="#"></a>
+        </div>
+
+        <div id="word-game"class="projects_container">
+            <div class="project_panel">
+                <div class="project_info_container">
+                    <h2>Webapp Word Game</h2>
+                    <p>A pet project i've had for many years and attempted to complete in a least 3 other languages. This Year I finally solved a lot of the efficiency and logic issues which have ended by past attempts.</p>
+                </div>
+                <div class="project_iframe_container">
+                    <iframe class="project_iframe"
+                    src="https://www.youtube.com/embed/y3yOMQfySVo?autoplay=1&mute=1">
+                    </iframe> 
+                </div>                   
+                <div class="project_info_container">                    
+                    <p>Made in JS over the course of a few weeks in my free time which I was completing a course, this was the most fun I've had working on a project in a long time because it meant a lot to finally go from the idea of the game to a working version.</p>
+                    <p>The source code for this project is available to browse through on my Github Repo. I've also got plans on future additions to this version as well as an online multiplayer version (in time).</p>
+                </div>
+                <div class="dev_info">
+                    <p>Developed 2023</p>
+                </div>                
+            </div>
+        </div>
 
         <div id="facial_recognition"class="projects_container">
             <div class="project_panel">
@@ -50,14 +72,14 @@
                     </div>
                     <div class="images_arrow_right" onclick="plusKotlinFRSlides(1)">
                     </div>
-                </div>                
-                <div class="dev_info">
-                    <p>Developed 2022</p>
                 </div>
                 <div class="project_info_container">                    
                     <p>The app was made for andriod phones using kotlin, developed in andriod studio. The app uses Google's ML Kit to find facial landmarks which are used in the emotion classification process.</p>
                     <p>Some images here were captured within the andriod studio emulator.</p>
-                </div>
+                </div>   
+                <div class="dev_info">
+                    <p>Developed 2022</p>
+                </div>             
             </div>
         </div>
 
@@ -82,13 +104,18 @@
                     <div class="images_arrow_right" onclick="plusMuseumSlides(1)">
                     </div>
                 </div>
-                <div class="dev_info">
-                    <p>Developed 2022</p>
-                </div>
                 <div class="project_info_container">   
                     <p>This game was developed in Unity using C#.</p>                                 
                     <p>This game was also an oppertunity to experiment with animations within unity (used for the boats and solar system), as well as lighting and different methods of optimisation.</p>
                 </div>
+                <div class="project_iframe_container">
+                    <iframe class="project_iframe" 
+                    src="https://www.youtube.com/embed/l_zerwQQFf8">
+                </iframe>
+                </div>
+                <div class="dev_info">
+                    <p>Developed 2022</p>
+                </div>             
             </div>
         </div>
 
@@ -112,12 +139,17 @@
                     <div class="images_arrow_right" onclick="plusEscapeRoomSlides(1)">
                     </div>
                 </div>
-                <div class="dev_info">
-                    <p>Developed 2022</p>
-                </div>
                 <div class="project_info_container">                    
                     <p>The game is a race against time to find whatever item is the 'odd one out' in each room with hints to help the player. </p>
                     <p>I tried to stick to a consistent (quite blocky) look for all of the objects inside the house. It features user interaction with objects, collectible items and collision detecion.  I also used this game to learn how to create my own models, work with menus, particle effects and multiple scenes.</p>
+                </div>
+                <div class="project_iframe_container">
+                    <iframe class="project_iframe" 
+                    src="https://www.youtube.com/embed/_TAoWPJiYek">
+                </iframe>              
+                </div> 
+                <div class="dev_info">
+                    <p>Developed 2022</p>
                 </div>
             </div>
         </div>
