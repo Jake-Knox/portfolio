@@ -1,7 +1,5 @@
 
 
-
-
 // element variables
 const webCollapse = document.getElementById("web-collapse");
 const pythonCollapse = document.getElementById("python-collapse");
@@ -25,7 +23,7 @@ webCollapse.addEventListener("click", () => {
         wdOnlineDiv.style.display = "none";
         cyberPetDiv.style.display = "none";
         wdLocalDiv.style.display = "none";
-        webCollapse.style.backgroundColor = "#555555";
+        webCollapse.style.backgroundColor = "#5ABE80";
     }
     else{
         wdOnlineDiv.style.display = "grid";
@@ -39,7 +37,7 @@ pythonCollapse.addEventListener("click", () => {
     if(  chatbotDiv.style.display != "none"){
         chatbotDiv.style.display = "none";
         compVisionDiv.style.display = "none";
-        pythonCollapse.style.backgroundColor = "#555555";
+        pythonCollapse.style.backgroundColor = "#5ABE80";
     }
     else{
         chatbotDiv.style.display = "grid";
@@ -52,7 +50,7 @@ csharpCollapse.addEventListener("click", () => {
     if(  vrMuseumDiv.style.display != "none"){
         vrMuseumDiv.style.display = "none";
         escapeRoomDiv.style.display = "none";
-        csharpCollapse.style.backgroundColor = "#555555";
+        csharpCollapse.style.backgroundColor = "#5ABE80";
     }
     else{
         vrMuseumDiv.style.display = "grid";
