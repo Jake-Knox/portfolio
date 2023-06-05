@@ -68,8 +68,8 @@ a{
 }
 
 .section{
-    background-color: #f9f1f1;
-   
+    background-color: #f1f1f1;
+    /* background-color: #555555; */
 
     display: flex;
     flex-direction: column;
@@ -77,6 +77,17 @@ a{
     justify-content: flex-start;
 
 }
+
+.collapse{
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    height: 5vh;
+    line-height: 250%;
+}
+
+
+
 
 .grid-container{
 
@@ -131,6 +142,21 @@ img{
     justify-content: center;
     align-items: center;
 }
+
+.flex-col-centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row-centre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* mobile mode */
 @media only screen and (max-width: 600px) {
