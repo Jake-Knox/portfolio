@@ -1,8 +1,8 @@
 [submodule "coloursApp"] 
-  path = "./example-projects/coloursApp"
-  url = "https://github.com/Jake-Knox/js-hex-colours"
+  path = example-projects/coloursApp
+  url = https://github.com/Jake-Knox/js-hex-colours
 
 [submodule "comp-vision"] 
-  path = "./example-projects/comp-vision"
-  url = "https://github.com/Jake-Knox/computer-vision"
+  path = example-projects/comp-vision
+  url = https://github.com/Jake-Knox/computer-vision
 
