@@ -1,0 +1,8 @@
+[submodule "coloursApp"] 
+  path = "./example-projects/coloursApp"
+  url = "https://github.com/Jake-Knox/js-hex-colours"
+
+[submodule "coloursApp"] 
+  path = "./example-projects/coloursApp"
+  url = "https://github.com/Jake-Knox/js-hex-colours"
+
