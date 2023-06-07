@@ -38,7 +38,7 @@ body{
 
     width: 1000px;
     background-color:beige;
-    background-image: url("images/background_images/paper_background.jpg");
+    background-image: url("../images/background_images/paper_background.jpg");
     background-repeat: repeat;
 
     display: flex;   
