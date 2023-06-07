@@ -137,7 +137,7 @@ body{
     background-color: lightseagreen;
     grid-column: 1 / 5;
     grid-row: 2;
-    height: 40vh;
+    height: 50vh;
 }
 .grid-text{
     background-color: lightpink;
