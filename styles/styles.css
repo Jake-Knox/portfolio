@@ -90,7 +90,6 @@ body{
     border-bottom: 1px solid #4ba06c;
     padding-bottom: 1vh;
     margin-bottom: 1vh;
-
 }
 
 .contact-row a{
@@ -99,9 +98,23 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     text-decoration: none;    
-
+}
+.contact-a{
+    color: black;
+}
+.contact-a:link{
+    text-decoration: none;
+}
+.contact-a:visited {
+    text-decoration: none;
+}
+.contact-a:hover {
+    text-decoration: underline;
+    color: #4ba06c;
+}
+.contact-a:active {
+    text-decoration: underline;
 }
 
 
@@ -252,5 +265,13 @@ body{
     
     #container{        
         width: 100%;
+    }
+
+    #dev-banner{
+        display: none;
+    }
+
+    .nav-a{
+        font-size: medium;
     }
   }
