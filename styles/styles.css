@@ -4,6 +4,19 @@
     font-family: 'Inter', sans-serif;
 }
 
+.flex-col-centre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row-centre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     max-width: 100vw;
     overflow-x: hidden;
@@ -45,29 +58,24 @@ body{
     /* oxfam green */
     background-color: #5ABE80;
 }
-#navbar a{
+.nav-a{
     text-decoration: none;
     color: white;
     font-size: x-large;
     width: 33%;
+    height: 100%;    
     text-align: center;
+    line-height: 250%;   
 }
 #navbar a:hover{
     color: black;
+    background-color: #4ba06c;
 }
 
 #container{
-
     margin: 0;
     padding: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     width: 600px;
-
 }
 
 #content{
@@ -82,12 +90,14 @@ body{
 .section{
     background-color: #f1f1f1;
     /* background-color: #555555; */
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+}
 
+#explainer{
+    margin: 10vh;
 }
 
 .collapse{
@@ -98,44 +108,44 @@ body{
     line-height: 250%;
 }
 
-
 .flex-container{
 
     width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 5vh;
 }
-.container-top{
-    width: 100%;
+.container-top{    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #5ABE80;
-}
-.container-title{
+
+    width: 100%;
     padding: 1vw;
+    background-color: #5ABE80;
+    border-radius: 1vw;
+
+    border-bottom: 0.3vw solid #4ba06c;
+}
+.container-title{   
+    /* padding: 1vw; */
 }
 .container-icon{
-    
+    /* padding: 1vw;     */
 }
 .container-images{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+.container-iframe{
+
 }
 .container-text{
-
+    width: 100%;
+    padding: 1vw;
+    background-color: lightgray;
+    border-radius: 1vw;
+    border-top: 0.3vw solid grey;
 }
-
 
 .grid-container{
     width: 100%;
