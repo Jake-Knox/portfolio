@@ -5,56 +5,46 @@ const webCollapse = document.getElementById("web-collapse");
 const pythonCollapse = document.getElementById("python-collapse");
 const csharpCollapse = document.getElementById("csharp-collapse");
 
+// indicators
+const webIndicator = document.getElementById("web-indicator");
+const pythonIndicator = document.getElementById("python-indicator");
+const csharpIndicator = document.getElementById("csharp-indicator");
 
-const wdOnlineDiv = document.getElementById("wd-online");
-const cyberPetDiv = document.getElementById("cyber-pet");
-const wdLocalDiv = document.getElementById("wd-local");
 
-const chatbotDiv = document.getElementById("chatbot");
-const compVisionDiv = document.getElementById("comp-vision");
-
-const vrMuseumDiv = document.getElementById("vr-museum");
-const escapeRoomDiv = document.getElementById("escape-room");
-
+// for web, python, csharp collapse funcs
+const webDivs = document.querySelectorAll(".web-div");
+const pythonDivs = document.querySelectorAll(".python-div");
+const csharpDivs = document.querySelectorAll(".csharp-div");
 
 // functions
-webCollapse.addEventListener("click", () => {
-    if(  wdOnlineDiv.style.display != "none"){
-        wdOnlineDiv.style.display = "none";
-        cyberPetDiv.style.display = "none";
-        wdLocalDiv.style.display = "none";
-        webCollapse.style.backgroundColor = "#5ABE80";
+webCollapse.addEventListener("click", () => {    
+    for (let i = 0; i < webDivs.length; i++) {
+        webDivs[i].classList.toggle("flex-col-centre");
+        webDivs[i].classList.toggle("hide");        
     }
-    else{
-        wdOnlineDiv.style.display = "grid";
-        cyberPetDiv.style.display = "grid";
-        wdLocalDiv.style.display = "grid";
-        webCollapse.style.backgroundColor = "#f1f1f1";
-    }  
+    toggleIndicator(webIndicator);
 });
 
-pythonCollapse.addEventListener("click", () => {
-    if(  chatbotDiv.style.display != "none"){
-        chatbotDiv.style.display = "none";
-        compVisionDiv.style.display = "none";
-        pythonCollapse.style.backgroundColor = "#5ABE80";
+pythonCollapse.addEventListener("click", () => {    
+    for (let i = 0; i < pythonDivs.length; i++) {
+        pythonDivs[i].classList.toggle("flex-col-centre");
+        pythonDivs[i].classList.toggle("hide");
     }
-    else{
-        chatbotDiv.style.display = "grid";
-        compVisionDiv.style.display = "grid";
-        pythonCollapse.style.backgroundColor = "#f1f1f1";
-    }  
+    toggleIndicator(pythonIndicator);
 });
 
 csharpCollapse.addEventListener("click", () => {
-    if(  vrMuseumDiv.style.display != "none"){
-        vrMuseumDiv.style.display = "none";
-        escapeRoomDiv.style.display = "none";
-        csharpCollapse.style.backgroundColor = "#5ABE80";
-    }
-    else{
-        vrMuseumDiv.style.display = "grid";
-        escapeRoomDiv.style.display = "grid";
-        csharpCollapse.style.backgroundColor = "#f1f1f1";
-    }  
+    for (let i = 0; i < csharpDivs.length; i++) {
+        csharpDivs[i].classList.toggle("flex-col-centre");
+        csharpDivs[i].classList.toggle("hide");
+    }    
+    toggleIndicator(csharpIndicator);
 });
+
+const toggleIndicator = (elm) => {
+    if(elm.textContent == "+"){
+        elm.textContent = "-";
+    } else {
+        elm.textContent = "+";
+    }
+}

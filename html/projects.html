@@ -12,7 +12,7 @@
     <div id="navbar">
         <a class="nav-a" href="../index.html">About & Contact</a>
         <a class="nav-a" href="#projects">Projects</a>
-        <a class="nav-a" href="old-portfolio/index2.html" target="_blank">Old Portfolio</a>        
+        <a class="nav-a" href="../old-portfolio/index2.html" target="_blank">Old Portfolio</a>        
     </div>
     <div id="container" class="flex-col-centre"> 
         <p id="dev-banner">Under Construction</p>
@@ -24,9 +24,14 @@
         
 
             <div id="section-web" class="section">
-                <h3 id="web-collapse" class="collapse">Web</h3>
 
-                <div id="wd-online" class="flex-container flex-col-centre">
+                <div id="web-collapse" class="collapse">
+                    <h2 class="collapse-title">Web</h2>
+                    <h3 class="collapse-desc">HTML, CSS, JavaScript, Node.js Webapps</h3>
+                    <h4 id="web-indicator" class="collapse-indicator">-</h4>
+                </div>
+
+                <div id="wd-online" class="web-div flex-container flex-col-centre">
                     <div class="container-top">
                         <div class="container-title">
                             <h2>Word Dog Online</h2>
@@ -52,7 +57,7 @@
                     </div>
                 </div>
            
-                <div id="cyber-pet" class="flex-container flex-col-centre">
+                <div id="cyber-pet" class="web-div flex-container flex-col-centre">
                     <div class="container-top">
                         <div class="container-title">
                             <h2>Cyber Pet</h2>
@@ -73,7 +78,7 @@
                     </div>
                 </div>
 
-                <div id="wd-local" class="flex-container flex-col-centre">
+                <div id="wd-local" class="web-div flex-container flex-col-centre">
                     <div class="container-top">
                         <div class="container-title">
                             <h2>Word Dog Local</h2>
@@ -93,10 +98,10 @@
                     </div>
                 </div>
 
-                <div id="comp-vision" class="flex-container flex-col-centre">
+                <div id="comp-vision" class="web-div flex-container flex-col-centre">
                     <div class="container-top">
                         <div class="container-title">
-                            <h2>comp-vision</h2>
+                            <h2>Computer Vision</h2>
                         </div>
                         <div class="container-icon">
                             <a href="https://github.com/Jake-Knox/computer-vision" target="_blank">
@@ -105,7 +110,7 @@
                         </div>    
                     </div>
                     <div class="container-images flex-col-centre">
-                        <img class="proj-img" src="../images/projects/" height="300px" width="300px" alt="Image showing, coffee cup with box around, showing AI object prediction - waiting for image">
+                        <img class="proj-img" src="../images/projects/comp-vision/book-person.png" height="300px" width="300px" alt="Image showing, coffee cup with box around, showing AI object prediction - waiting for image">
                         
                     </div>
                     <div class="container-text">
@@ -115,13 +120,13 @@
                     </div>
                 </div>
 
-                <div id="ai-calc" class="flex-container flex-col-centre">
+                <div id="ai-calc" class="web-div flex-container flex-col-centre">
                     <div class="container-top">
                         <div class="container-title">
                             <h2>Calculator made with AI - Demo</h2>
                         </div>
                         <div class="container-icon">
-                            <a href="" target="_blank">
+                            <a href="https://github.com/Jake-Knox/ai-calculator" target="_blank">
                                 <img class="logo-img" src="../images/logos/GitHub_logo_transparent.png">
                             </a>
                         </div>    
@@ -130,12 +135,11 @@
                         <iframe id="ai-calc-iframe" class="project-iframe" src="../example-projects/ai-test-calc/index.html" title="Iframe AI calculator"></iframe>
                     </div>
                     <div class="container-text">
-                        <p>This was a quick project, based on an idea I had for another project. I wanted to take a hexidecimal colour randomiser and make something visually interesting with it.</p>
                         <p>Now that ai is being seen as a very useful tool in software development, I have started to incorperate AI generated code into my projects to help speed up the development process.</p>
                     </div>
                 </div>
 
-                <div id="colour-random" class="flex-container flex-col-centre">
+                <div id="colour-random" class="web-div flex-container flex-col-centre">
                     <div class="container-top">
                         <div class="container-title">
                             <h2>Hex Colour Randomiser - Demo</h2>
@@ -150,48 +154,32 @@
                         <iframe id="coloursApp-iframe" class="project-iframe" src="../example-projects/coloursApp/index.html" title="Iframe AI Colours"></iframe>   
                     </div>
                     <div class="container-text">
+                        <p>This was a quick project, based on an idea I had for another project. I wanted to take a hexidecimal colour randomiser and make something visually interesting with it.</p>
                         <p>Also available here</p>
                         <p>https://jake-knox.github.io/js-hex-colours/</p>
                     </div>
                 </div>
 
+                <div id="python-collapse" class="collapse">
+                    <h2 class="collapse-title">Python</h2>
+                    <h3 class="collapse-desc">Flask apps, AI & ML models</h3>
+                    <h4 id="python-indicator" class="collapse-indicator">-</h4>
+                </div>
+                <div class="python-div flex-col-centre"></div>
+                <div class="python-div flex-col-centre"></div>
+                <div class="python-div flex-col-centre"></div>
+
+
+                <div id="csharp-collapse" class="collapse">
+                    <h2 class="collapse-title">C#</h2>
+                    <h3 class="collapse-desc">Unity, 3D, VR</h3>
+                    <h4 id="csharp-indicator" class="collapse-indicator">-</h4>
+                </div>                
+                <div class="csharp-div flex-col-centre"></div>
+                <div class="csharp-div flex-col-centre"></div>
+                <div class="csharp-div flex-col-centre"></div>
+
             </div>
-           
-
-
-            <!-- <div id="section-js" class="section">
-
-                <h3 id="python-collapse" class="collapse">Python</h3>
-                <div id="chatbot" class="grid-container">
-                    <div class="grid-title">chatbot</div>
-                    <div class="grid-icon">github icon</div>
-                    <div class="grid-images">images</div>
-                    <div class="grid-text">text</div>
-                </div>
-
-
-            </div>
-
-            <div id="section-csharp" class="section">
-
-                <h3 id="csharp-collapse" class="collapse">C#</h3>
-                <div id="vr-museum" class="grid-container">
-                    <div class="grid-title">Unity VR Museum</div>
-                    <div class="grid-icon">github icon</div>
-                    <div class="grid-images">images</div>
-                    <div class="grid-text">text</div>
-                </div>
-
-                <div id="escape-room" class="grid-container">
-                    <div class="grid-title">Unity Escape Room</div>
-                    <div class="grid-icon">github icon</div>
-                    <div class="grid-images">images</div>
-                    <div class="grid-text">text</div>
-                </div>
-
-            </div> -->
-
-
     <div>
     <div id="footer">
         <p>under construction</p>
