@@ -218,20 +218,6 @@ body{
     width: 98%;    
 }
 
-
-.python-div{
-    width: 100px;
-    height: 100px;
-    background-color: paleturquoise;
-    margin: 5px;
-}
-.csharp-div{
-    width: 100px;
-    height: 100px;
-    background-color: palevioletred;
-    margin: 5px;
-}
-
 .hide{
     display: none;
 }
