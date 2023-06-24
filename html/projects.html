@@ -17,9 +17,12 @@
     <div id="container" class="flex-col-centre"> 
         <p id="dev-banner">Under Construction</p>
 
-        <div class="explainer" class="flex-col-centre">
+        <div class="explainer">
+            <div class="exp-div"></div>
             <h1>Projects</h1>
-            <p><a href="https://github.com/Jake-Knox" target="_blank" >view on github</a></p>
+            <a href="https://github.com/Jake-Knox" target="_blank" class="exp-div flex-row-centre">
+                <img class="logo-img" src="../images/logos/GitHub_logo_transparent.png">
+            </a>            
         </div>
         
 
@@ -95,7 +98,9 @@
                     <div class="container-text">
                         <p>Play here</p>
                         <p>https://jake-knox.github.io/word-game/</p>
+                        <p>Youtube demo below</p>
                     </div>
+                    <iframe class="yt-vid-vert" src="https://www.youtube.com/embed/y3yOMQfySVo" title="Word Dog - JavaScript word game demo (mobile view)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                 </div>
 
                 <div id="comp-vision" class="web-div flex-container flex-col-centre">
@@ -155,8 +160,7 @@
                     </div>
                     <div class="container-text">
                         <p>This was a quick project, based on an idea I had for another project. I wanted to take a hexidecimal colour randomiser and make something visually interesting with it.</p>
-                        <p>Also available here</p>
-                        <p>https://jake-knox.github.io/js-hex-colours/</p>
+                        <p><a href="https://jake-knox.github.io/js-hex-colours/">Also available interact with here</a></p>
                     </div>
                 </div>
 
@@ -183,22 +187,62 @@
                     </div>
                     <div class="container-text">
                         <p>A webapp I made while on a coding bootcamp.</p>
-                        <p>Try out here</p>
+                        <p>The chatbot's responses are dtermined by a model which I trained on different responses from greetings to Seinfeld and Twin Peaks references</p>
+                        <p>This project was also my first experience working with Flask for python. One nice little feature is atificial typing for the chatbot which makes it seems as though its responses are being typed in real time.</p>
+                        <p>The name and personaly are based on the character Phil Resch from 'Do Androids Dream of Electric Sheep'.</p>
                     </div>
                 </div>
                 
-                <div class="python-div flex-col-centre"></div>
-                <div class="python-div flex-col-centre"></div>
-
-
                 <div id="csharp-collapse" class="collapse">
                     <h2 class="collapse-title">C#</h2>
                     <h3 class="collapse-desc">Unity, 3D, VR</h3>
                     <h4 id="csharp-indicator" class="collapse-indicator">-</h4>
-                </div>                
-                <div class="csharp-div flex-col-centre"></div>
-                <div class="csharp-div flex-col-centre"></div>
-                <div class="csharp-div flex-col-centre"></div>
+                </div>    
+                
+                <div id="museum" class="csharp-div flex-container flex-col-centre">
+                    <div class="container-top">
+                        <div class="container-title">
+                            <h2>VR Museum</h2>
+                        </div>
+                        <div class="container-icon">
+                            <a href="https://github.com/Jake-Knox/vr_unity_museum" target="_blank">
+                                <img class="logo-img" src="../images/logos/GitHub_logo_transparent.png">
+                            </a>
+                        </div>    
+                    </div>
+                    <div class="container-images flex-col-centre">
+                        <img class="proj-img" src="../images/projects/museum/projectMuseum2.png" height="300px" width="300px" alt="Image showing, coffee cup with box around, showing AI object prediction - waiting for image">
+                        <img class="proj-img" src="../images/projects/museum/projectMuseum5.png" height="300px" width="300px" alt="Image showing, coffee cup with box around, showing AI object prediction - waiting for image">
+                    </div>
+                    <div class="container-text">
+                        <p>A unity based game</p>
+                        <p>This project had a focus on the VR experience. It includes 3 ways of movement based on user preference, exhibits that are easy to interect with and peaceful music options</p>
+                        <p></p>
+                    </div>
+                    <iframe class="yt-vid-hori" src="https://www.youtube.com/embed/l_zerwQQFf8" title="Unity VR Museum  - Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+                <div id="escape-room" class="csharp-div flex-container flex-col-centre">
+                    <div class="container-top">
+                        <div class="container-title">
+                            <h2>Unity Escape Room Game</h2>
+                        </div>
+                        <div class="container-icon">
+                            <a href="https://github.com/Jake-Knox/unity-escape-room" target="_blank">
+                                <img class="logo-img" src="../images/logos/GitHub_logo_transparent.png">
+                            </a>
+                        </div>    
+                    </div>
+                    <div class="container-images flex-col-centre">
+                        <img class="proj-img" src="../images/projects/escape-room/escapeRoom1.png" height="300px" width="300px" alt="Image showing, coffee cup with box around, showing AI object prediction - waiting for image">
+                        <img class="proj-img" src="../images/projects/escape-room/escapeRoom5.png" height="300px" width="300px" alt="Image showing, coffee cup with box around, showing AI object prediction - waiting for image">
+                    </div>
+                    <div class="container-text">
+                        <p>This was my first project after starting to use Unity. The player uses clues to look for items that are out of place in different rooms of a house. They are rewarded with keys and race against time to find an exit.</p>
+                        <p>Some aspects of this game made their way into my VR Museum project but the experience as a whole was very useful as a starting point for the museum, which was much more complex.</p>
+                    </div>
+                    <iframe class="yt-vid-hori" src="https://www.youtube.com/embed/_TAoWPJiYek" title="Unity Escape Room - Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
 
             </div>
     <div>
